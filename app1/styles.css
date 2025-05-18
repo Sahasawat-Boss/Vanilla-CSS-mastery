@@ -14,6 +14,24 @@ body {
    color: #333; /* generally for most website */
 }
 
+/* Class Selector -> 90% of CSS*/
+.hero{
+    padding: 100px;
+}
+
+.hero__title{
+    color: black;
+}
+
+.hero__description{
+    color: #81da76;
+}
+
+/* ID Selector -> Target 1 element in App*/
+#hero__highlight{
+    color: #dbfbe0;
+}
+    
 /* ================================ */
 /* 2. Fonts - Features Section */
 /* ================================ */
