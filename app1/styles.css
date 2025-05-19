@@ -1,5 +1,5 @@
 /* ================================ */
-/*! 1. Selectors & Basic Properties - Hero Section */
+/*!  */
 /* ================================ */
 /* Main 4 Type of CSS */
 
@@ -77,6 +77,30 @@ body {
 /* ================================ */
 /* 3. Colors - Call to Action Section */
 /* ================================ */
+
+.cta {
+    padding: 100px;
+    background-color: rgba(27, 108, 39, 0.539);
+    /* background-color: hsl(200, 50%, 50%); */
+    /* background-color: #ffffff*/
+    /* background-color: #fff*/
+    text-align: center;
+}
+
+.cta__description {
+    padding: 15px 0;
+    color: white;
+}
+
+button {
+    color: none;
+    border: none;
+}
+
+.cta__button {
+    padding: 10px 20px;
+    /* padding: 80px 50px 0px 10px; << Clock-wise TRBL*/
+}
 
 /* ================================ */
 /* 5. Flex - Programs Section */
