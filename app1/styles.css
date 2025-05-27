@@ -175,9 +175,64 @@ button {
     height: 300px;
 }
 /* ================================ */
-/* 6. HTML Elements & Images - Form Section */
+/*! 6. HTML Elements & Images - Form Section */
 /* ================================ */
+.element {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    gap: 60px;
+    background-color: #f8f9fa;
+}
 
+.element__left {
+    flex: 1;
+}
+
+.element__right {
+    flex: 1;
+}
+
+.element__subtitle {
+    color: #5bb471;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.element__form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.element__placeholder {
+    background-color: rgb(158, 158, 158);
+    width: 100%;
+    height: 100%;
+}
+
+.element__lists {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.element__lists-item {
+    padding: 8px 0;
+    border-bottom:  1px solid #a0a0a0;
+    color: #6e6e6e;
+}
+
+.element__lists-item::before {
+    content: "->";
+    margin-right: 10px;
+    color: #306329;
+}
+
+.element__form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
 /* ================================ */
 /* 8. Images and Final Styling */
 /* ================================ */
