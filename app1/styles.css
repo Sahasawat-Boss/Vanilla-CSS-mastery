@@ -1,5 +1,5 @@
 /* ================================ */
-/*!  */
+/*! 1. Selectors & Basic Properties - Hero Section */
 /* ================================ */
 /* Main 4 Type of CSS */
 
@@ -75,7 +75,7 @@ body {
 }
 
 /* ================================ */
-/* 3. Colors - Call to Action Section */
+/*! 3. Colors - Call to Action Section */
 /* ================================ */
 
 .cta {
@@ -103,7 +103,7 @@ button {
 }
 
 /* ================================ */
-/* 4. Box Model - Video Section */
+/*! 4. Box Model - Video Section */
 /* ================================ */
 
 .video {
@@ -146,9 +146,28 @@ button {
 /* There is a CSS generator tool that can help css */
 
 /* ================================ */
-/* 5. Flex - Programs Section */
+/*! 5. Flex - Programs Section */
 /* ================================ */
 
+.programs {
+    padding: 100px;
+    background-color: #eee;
+    padding-bottom: 200px;
+}
+
+.programs__cards {
+    display: flex;
+    justify-content: space-between;
+    gap:  20px;
+    margin-top: 20px;
+}
+
+.programs__card {
+    background-color: #b5b5b5;
+    padding: 30px;
+    width: 30%;
+    height: 350px;
+}
 /* ================================ */
 /* 6. HTML Elements & Images - Form Section */
 /* ================================ */
